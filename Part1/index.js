@@ -34,6 +34,7 @@ function play( position ) {
         const bottomRight = gameProgress[8];
 
         console.log(gameProgress);
+        
         setTimeout(function() {
             if (topLeft != undefined && topLeft === topCenter && topLeft === topRight) {
                 hasWinner = true;
